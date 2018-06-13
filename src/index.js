@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import superman from '../src/public/superman.jpg';
 import _ from '../src/index.less'
+import reDemo from 'index1.js'
 
+
+console.log(reDemo)
 const root = document.createElement('div');
 root.id = 'root';
 document.body.appendChild(root);
